@@ -1,0 +1,168 @@
+{
+  "_comment": "免费商用字体注册表。family=spec/界面家族名；weights.<档>.typeface=PPTX 写入名（命名实例）；weights.<档>.ttf=服务器字体文件名（font_dir 下，fonts_install.sh 安装）；fallback=用户机缺字时的近似家族（版式免疫：固定行距+不换行，缺字只换字形不重排）；class: sans|serif|kai|round|display",
+  "version": 1,
+  "font_dir": "/usr/share/fonts/slidelift",
+  "families": [
+    {
+      "family": "思源黑体",
+      "class": "sans",
+      "fallback": "微软雅黑",
+      "license": "OFL",
+      "weights": {
+        "light":   {"typeface": "Source Han Sans CN Light",  "ttf": "SourceHanSansCN-Light.otf"},
+        "regular": {"typeface": "Source Han Sans CN",        "ttf": "SourceHanSansCN-Regular.otf"},
+        "medium":  {"typeface": "Source Han Sans CN Medium", "ttf": "SourceHanSansCN-Medium.otf"},
+        "bold":    {"typeface": "Source Han Sans CN Bold",   "ttf": "SourceHanSansCN-Bold.otf"},
+        "heavy":   {"typeface": "Source Han Sans CN Heavy",  "ttf": "SourceHanSansCN-Heavy.otf"}
+      }
+    },
+    {
+      "family": "思源宋体",
+      "class": "serif",
+      "fallback": "宋体",
+      "license": "OFL",
+      "weights": {
+        "light":   {"typeface": "Source Han Serif CN Light",  "ttf": "SourceHanSerifCN-Light.otf"},
+        "regular": {"typeface": "Source Han Serif CN",        "ttf": "SourceHanSerifCN-Regular.otf"},
+        "medium":  {"typeface": "Source Han Serif CN Medium", "ttf": "SourceHanSerifCN-Medium.otf"},
+        "bold":    {"typeface": "Source Han Serif CN Bold",   "ttf": "SourceHanSerifCN-Bold.otf"},
+        "heavy":   {"typeface": "Source Han Serif CN Heavy",  "ttf": "SourceHanSerifCN-Heavy.otf"}
+      }
+    },
+    {
+      "family": "霞鹜文楷",
+      "class": "kai",
+      "fallback": "楷体",
+      "license": "OFL",
+      "weights": {
+        "light":   {"typeface": "LXGW WenKai Light",  "ttf": "LXGWWenKai-Light.ttf"},
+        "regular": {"typeface": "LXGW WenKai",        "ttf": "LXGWWenKai-Regular.ttf"},
+        "medium":  {"typeface": "LXGW WenKai Medium", "ttf": "LXGWWenKai-Medium.ttf"}
+      }
+    },
+    {
+      "family": "霞鹜臻楷",
+      "class": "kai",
+      "fallback": "楷体",
+      "license": "IPA-1.0",
+      "weights": {
+        "regular": {"typeface": "LXGW ZhenKai", "ttf": "LXGWZhenKai-Regular.ttf"}
+      }
+    },
+    {
+      "family": "阿里巴巴普惠体",
+      "class": "sans",
+      "fallback": "微软雅黑",
+      "license": "免费商用（阿里巴巴普惠体许可）",
+      "weights": {
+        "light":   {"typeface": "Alibaba PuHuiTi 3.0 45 Light",  "ttf": "AlibabaPuHuiTi-3-45-Light.ttf"},
+        "regular": {"typeface": "Alibaba PuHuiTi 3.0 55 Regular","ttf": "AlibabaPuHuiTi-3-55-Regular.ttf"},
+        "medium":  {"typeface": "Alibaba PuHuiTi 3.0 65 Medium", "ttf": "AlibabaPuHuiTi-3-65-Medium.ttf"},
+        "bold":    {"typeface": "Alibaba PuHuiTi 3.0 85 Bold",   "ttf": "AlibabaPuHuiTi-3-85-Bold.ttf"},
+        "heavy":   {"typeface": "Alibaba PuHuiTi 3.0 105 Heavy", "ttf": "AlibabaPuHuiTi-3-105-Heavy.ttf"}
+      }
+    },
+    {
+      "family": "MiSans",
+      "class": "sans",
+      "fallback": "微软雅黑",
+      "license": "免费商用（小米 MiSans 许可）",
+      "weights": {
+        "light":   {"typeface": "MiSans Light",    "ttf": "MiSans-Light.ttf"},
+        "regular": {"typeface": "MiSans",          "ttf": "MiSans-Regular.ttf"},
+        "medium":  {"typeface": "MiSans Medium",   "ttf": "MiSans-Medium.ttf"},
+        "bold":    {"typeface": "MiSans Bold",     "ttf": "MiSans-Bold.ttf"},
+        "heavy":   {"typeface": "MiSans Heavy",    "ttf": "MiSans-Heavy.ttf"}
+      }
+    },
+    {
+      "family": "HarmonyOS Sans",
+      "class": "sans",
+      "fallback": "微软雅黑",
+      "license": "免费商用（HarmonyOS Sans 许可）",
+      "weights": {
+        "light":   {"typeface": "HarmonyOS Sans SC Light",  "ttf": "HarmonyOS_Sans_SC_Light.ttf"},
+        "regular": {"typeface": "HarmonyOS Sans SC",        "ttf": "HarmonyOS_Sans_SC_Regular.ttf"},
+        "medium":  {"typeface": "HarmonyOS Sans SC Medium", "ttf": "HarmonyOS_Sans_SC_Medium.ttf"},
+        "bold":    {"typeface": "HarmonyOS Sans SC Bold",   "ttf": "HarmonyOS_Sans_SC_Bold.ttf"},
+        "heavy":   {"typeface": "HarmonyOS Sans SC Black",  "ttf": "HarmonyOS_Sans_SC_Black.ttf"}
+      }
+    },
+    {
+      "family": "资源圆体",
+      "class": "round",
+      "fallback": "微软雅黑",
+      "license": "OFL",
+      "weights": {
+        "light":   {"typeface": "Resource Han Rounded CN Light",  "ttf": "ResourceHanRoundedCN-Light.ttf"},
+        "regular": {"typeface": "Resource Han Rounded CN",        "ttf": "ResourceHanRoundedCN-Regular.ttf"},
+        "medium":  {"typeface": "Resource Han Rounded CN Medium", "ttf": "ResourceHanRoundedCN-Medium.ttf"},
+        "bold":    {"typeface": "Resource Han Rounded CN Bold",   "ttf": "ResourceHanRoundedCN-Bold.ttf"},
+        "heavy":   {"typeface": "Resource Han Rounded CN Heavy",  "ttf": "ResourceHanRoundedCN-Heavy.ttf"}
+      }
+    },
+    {
+      "family": "得意黑",
+      "class": "display",
+      "fallback": "微软雅黑",
+      "license": "OFL",
+      "weights": {
+        "regular": {"typeface": "Smiley Sans Oblique", "ttf": "SmileySans-Oblique.ttf"}
+      }
+    },
+    {
+      "family": "站酷快乐体",
+      "class": "round",
+      "fallback": "楷体",
+      "license": "免费商用（站酷字体许可）",
+      "weights": {
+        "regular": {"typeface": "ZCOOL KuaiLe", "ttf": "ZCOOLKuaiLe-Regular.ttf"}
+      }
+    },
+    {
+      "family": "站酷庆科黄油体",
+      "class": "round",
+      "fallback": "微软雅黑",
+      "license": "免费商用（站酷字体许可）",
+      "weights": {
+        "regular": {"typeface": "ZCOOL QingKe HuangYou", "ttf": "ZCOOLQingKeHuangYou-Regular.ttf"}
+      }
+    },
+    {
+      "family": "站酷小薇LOGO体",
+      "class": "display",
+      "fallback": "宋体",
+      "license": "免费商用（站酷字体许可）",
+      "weights": {
+        "regular": {"typeface": "ZCOOL XiaoWei", "ttf": "ZCOOLXiaoWei-Regular.ttf"}
+      }
+    },
+    {
+      "family": "马善政楷书",
+      "class": "kai",
+      "fallback": "楷体",
+      "license": "OFL",
+      "weights": {
+        "regular": {"typeface": "Ma Shan Zheng", "ttf": "MaShanZheng-Regular.ttf"}
+      }
+    },
+    {
+      "family": "钉钉进步体",
+      "class": "display",
+      "fallback": "微软雅黑",
+      "license": "免费商用（钉钉进步体许可）",
+      "weights": {
+        "regular": {"typeface": "DingTalk JinBuTi", "ttf": "DingTalkJinBuTi-Regular.ttf"}
+      }
+    },
+    {
+      "family": "阿里妈妈数黑体",
+      "class": "display",
+      "fallback": "黑体",
+      "license": "免费商用（阿里妈妈字体许可）",
+      "weights": {
+        "bold": {"typeface": "Alimama ShuHeiTi Bold", "ttf": "AlimamaShuHeiTi-Bold.ttf"}
+      }
+    }
+  ]
+}

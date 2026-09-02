@@ -1,0 +1,13 @@
+torch==2.13.0
+torchvision==0.28.0
+opencv-python==5.0.0.93
+numpy==2.5.2
+Pillow==12.3.0
+scipy==1.18.1
+ultralytics==8.4.130
+rapidocr-onnxruntime==1.4.4
+onnxruntime==1.29.0
+rembg==2.0.81
+python-pptx==1.0.2
+PyMuPDF==1.28.2
+clip @ git+https://github.com/ultralytics/CLIP.git

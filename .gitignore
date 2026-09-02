@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+work/
+output/
+models/*.pt
+weights/
+logs/
+.DS_Store
